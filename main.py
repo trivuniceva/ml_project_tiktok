@@ -5,7 +5,8 @@ from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 
-data = pd.read_csv('/Users/nikolina/Desktop/Projekti/ml_tiktok_data/metadata.csv')
+data_path = '/Users/nikolina/Desktop/Projekti/ml_tiktok_data/metadata.csv'
+data = pd.read_csv(data_path)
 print(data.head())
 
 numerical_columns = data.select_dtypes(include=['number']).columns
