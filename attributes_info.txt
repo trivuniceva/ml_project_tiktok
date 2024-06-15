@@ -1,0 +1,44 @@
+id: unique identifier for Tiktok video
+secretID: same as id
+text: video caption
+createTime: timestamp when video was created
+authorMeta.id: id of video's author
+authorMeta.secUid: secondary ynique id of the autor
+authorMeta.name: author name
+authorMeta.nickName: nickname ore username
+authorMeta.verified: boolean if author is verified
+authorMeta.signature: bio
+authorMeta.avatar: URL to the author's profile pic
+authorMeta.following: number of creators that author is following
+authorMeta.fans: number of followers
+authorMeta.heart: number of likes on one video
+authorMeta.digg: like number of all videos 
+authorMeta.video: number of uploaded videos
+musicMeta.musicId: sound id 
+musicMeta.musicName: sound name
+musicMeta.musicAuthor: sound creator 
+musicMeta.musicOriginal: boolean if the music is an original track 
+musicMeta.musicAlbum: album name
+musicMeta.playUrl: sound url 
+musicMeta.coverThumb: url of sound cover image (thumbnail)
+musicMeta.coverMedium: url of sound cover image (medium size)
+musicMeta.coverLarge: url of sound cover image (large size)
+musicMeta.duration: sound duration in seconds
+covers.default: url for video cover
+covers.origin: 
+covers.dynamic
+webVideoUrl: url to view the video on web
+videoUrl: url to view the video
+videoUrlNoWaterMark: url to view video without watermark
+videoApiUrlNoWaterMark: API url to access the video without watermark
+videoMeta.height
+videoMeta.width
+videoMeta.duration
+diggCount:count for likes
+shareCount: count for share
+playCount: count for play
+commentCount: count for comment
+downloaded: boolean if video has been downloaded
+mentions: list for mentions
+hashtags: list for hashtags
+effectStickers: list for stickers used in video
